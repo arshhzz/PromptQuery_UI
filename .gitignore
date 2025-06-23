@@ -11,6 +11,12 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# Build outputs
+public/dist/
+dist/
+build/
+out/
+
 # Logs
 logs
 *.log
