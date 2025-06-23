@@ -1,0 +1,38 @@
+{
+  "name": "promptquery-ui",
+  "version": "1.0.0",
+  "description": "Full-stack AI query interface with OpenAI integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:frontend": "vite",
+    "dev:full": "concurrently \"npm run dev\" \"npm run dev:frontend\"",
+    "install:all": "npm install && npm run build"
+  },
+  "keywords": ["llm", "openai", "express", "react", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "tailwindcss": "^3.3.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "concurrently": "^8.2.0"
+  }
+} 
