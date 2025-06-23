@@ -17,6 +17,9 @@ dist/
 build/
 out/
 
+# GitHub Actions
+.github/
+
 # Logs
 logs
 *.log
